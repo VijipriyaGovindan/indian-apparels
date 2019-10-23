@@ -1,0 +1,7 @@
+.sign-up
+{
+    margin: 2rem;
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+}

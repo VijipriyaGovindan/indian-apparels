@@ -1,0 +1,60 @@
+.item-container
+{
+    margin: 1rem;
+    width:20rem;
+    height: 17.5rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+
+
+.item-image
+{
+   margin: .5rem;
+   width:100%;
+   height: 100%;
+   display: flex;
+   flex-direction:row;
+   justify-content: flex-start;
+   background-size: cover;
+   background-position: center;
+   border: 1px solid black;
+
+}
+&:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    .item-image {
+        opacity: 0.8;
+      }
+  
+      .custom-button {
+        opacity: 0.85;
+        display: flex;
+      }
+  
+ }
+.item-footer
+{
+    padding-bottom: .5rem;
+    display: flex;
+    flex : 1 1;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.custom-button
+{
+    width: 60%;
+    opacity: 0.7;
+    position: absolute;
+    top:12rem;
+    display: none;
+}
+
+}

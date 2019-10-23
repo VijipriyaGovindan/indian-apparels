@@ -1,0 +1,27 @@
+.CollectionItem
+{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+.SubItem
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+.linkto
+{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color:black;
+
+
+}

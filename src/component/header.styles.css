@@ -1,0 +1,27 @@
+.nav {
+    padding-top: 1.4rem;
+    display: flex;
+    min-height: 56px;
+    align-items: center;
+  }
+  
+  .left, .right {
+    flex: 1;
+  }
+  .right {
+    text-align: right;
+  }
+  
+  .item {
+    font-size: 20px;
+    padding: 16px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .popup
+  {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 16px;
+  }
