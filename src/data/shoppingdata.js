@@ -7,7 +7,7 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          name: 'Silk Saree 1 Brown',
+          name: 'Silk Saree 1 WeB hook',
           imageUrl: '../images/saree/saree1.jpeg',
           price: 25
         },
